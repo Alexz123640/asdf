@@ -1,0 +1,3 @@
+steps:
+  - name: gcr.io/cloud-builders/gsutil
+    args: ["-m", "rsync", "-r", "-c", "-d", "./Alexz123640/asdf/", "gs://pruebadepruebas"]
